@@ -1,0 +1,7 @@
+{
+  "name": "عدالت - رسانه تحقیقی",
+  "description": "گزارش ویژه و بررسی مدارک، تصاویر، اطلاعات اکانت‌ها و شباهت‌های گیم‌پلی تیم دریاسالار در زلزله لیگ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
