@@ -94,6 +94,13 @@ export const Navbar: React.FC<NavbarProps> = ({
           </button>
           <button
             type="button"
+            onClick={() => scrollToSection('new-updates')}
+            className="px-3 py-1.5 rounded-lg hover:text-white hover:bg-[#161616] transition-colors"
+          >
+            مکالمات و گزارش‌های جدید
+          </button>
+          <button
+            type="button"
             onClick={() => scrollToSection('summary-findings')}
             className="px-3 py-1.5 rounded-lg hover:text-white hover:bg-[#161616] transition-colors"
           >
@@ -181,6 +188,13 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="text-right px-3 py-2 rounded-lg hover:bg-[#161616] text-zinc-200"
             >
               بخش Advance-Shark
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollToSection('new-updates')}
+              className="text-right px-3 py-2 rounded-lg hover:bg-[#161616] text-zinc-200"
+            >
+              مکالمات و گزارش‌های جدید
             </button>
             <button
               type="button"

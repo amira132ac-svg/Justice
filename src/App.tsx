@@ -12,6 +12,7 @@ import { EvidenceSection } from './components/EvidenceSection';
 import { FormerTeammatesSection } from './components/FormerTeammatesSection';
 import { GameplaySection } from './components/GameplaySection';
 import { StatisticsSection } from './components/StatisticsSection';
+import { NewUpdatesSection } from './components/NewUpdatesSection';
 import { SummarySection } from './components/SummarySection';
 import { EvidenceModal } from './components/EvidenceModal';
 import { Footer } from './components/Footer';
@@ -54,7 +55,10 @@ export default function App() {
         {/* 4. Advance-Shark Verified Stats (بخش Advance-Shark) */}
         <StatisticsSection />
 
-        {/* 5. Findings Summary Section (بخش جمع‌بندی) */}
+        {/* 5. New Updates & Reports (مکالمه درباره اکانت، توهین به مادر بیمار و برداشت از مدارک) */}
+        <NewUpdatesSection />
+
+        {/* 6. Findings Summary Section (بخش جمع‌بندی) */}
         <SummarySection onPrintDossier={handlePrintDossier} />
       </main>
 

@@ -51,6 +51,11 @@ export const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
+                <a href="#new-updates" className="hover:text-red-400 transition-colors">
+                  مکالمات و گزارش‌های جدید
+                </a>
+              </li>
+              <li>
                 <a href="#summary-findings" className="hover:text-red-400 transition-colors">
                   آنچه مدارک نشان می‌دهند
                 </a>

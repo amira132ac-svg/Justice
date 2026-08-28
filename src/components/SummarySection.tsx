@@ -95,6 +95,17 @@ export const SummarySection: React.FC<SummarySectionProps> = ({ onPrintDossier }
           ))}
         </div>
 
+        {/* Dedicated Conclusion Statement Box */}
+        <div className="p-6 rounded-2xl bg-[#131313] border-2 border-red-950/70 shadow-2xl mb-8">
+          <div className="flex items-center gap-2 text-red-400 font-bold text-sm mb-3">
+            <Scale className="w-4 h-4" />
+            <span>جمع‌بندی</span>
+          </div>
+          <p className="text-zinc-200 text-xs sm:text-sm leading-relaxed">
+            «اگر اتفاقات و توهین‌های مطرح‌شده در پیام‌ها همان‌طور که گزارش شده واقعاً رخ داده باشند، چنین رفتاری نشان‌دهنده بی‌صداقتی و رفتار غیرقابل‌قبول است. در این صورت، طبیعی است که درباره ادعاهای دیگر مطرح‌شده، از جمله موضوع اکانت دادن و گفته‌های مطرح‌شده درباره آن، نیز تردید و سؤال ایجاد شود و این موارد با دقت بیشتری بررسی شوند.»
+          </p>
+        </div>
+
         {/* Concise Footer Box */}
         <div className="p-5 sm:p-6 rounded-2xl bg-[#111111] border border-[#262626] shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="space-y-1 text-xs text-zinc-300">
